@@ -84,6 +84,9 @@ An initial starting point is provided in this repo, and has the following setup:
 You should submit your work, using this code base as your starting point. Please also edit the README with any additional instructions needed 
 to get your project running. You must also supply documentation on how your protocol works, which can be included in the README. 
 
+We are expecting this to take candidates around 1 hour to complete. If you find there is improvements you could make given more time,
+please take a note of these and include them in your README.
+
 ### What you will be assessed on
 
 The project is giving you an opportunity to prove your knowledge in the following areas:
