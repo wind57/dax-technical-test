@@ -1,0 +1,35 @@
+# IDEs
+.DS_Store
+.classpath
+.project
+.settings
+.idea
+*.iml
+*.iws
+*.ser
+*.jfr
+*.ipr
+*.ctxt
+*.hprof
+
+# Gradle
+!gradle-wrapper.jar
+build/
+out/
+.gradle
+*.class
+
+# Packages
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Other files
+*.log
+
+#JMH - Report
+*result.csv
+/full-stack/
+null/
+/error/
