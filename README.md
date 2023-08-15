@@ -63,10 +63,7 @@ value = is variable length, with a maximum size of 2096 bytes
 
 When executing the JAR, the server must begin listening on a chosen port (this can be hardcoded). The server must then
 support multiple client connections, and the implementation of the protocol specified above. There is no need 
-for this cache to be persisted between restarts. 
-
-You may use whatever network stack you are familiar with, the important part is implementing the protocol without 
-using HTTP (or any other pre-packaged solution).
+for this cache to be persisted between restarts.
 
 ### The client must support the following
 
