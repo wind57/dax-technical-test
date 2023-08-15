@@ -55,7 +55,7 @@ The server should acknowledge the success of the operation to the client.
 
 You can assume the following limitations on the key and value:
 ```
-key = is a fixed size 4 byte array
+key = is a fixed size of 4 bytes
 value = is variable length, with a maximum size of 512 bytes
 ```
 
@@ -67,8 +67,8 @@ for this cache to be persisted between restarts.
 
 ### The client must support the following
 
-When executing the JAR, the client must connect to the server and maintain a persistent connection. When a user then enters 
-a command, the client must execute the command and print some relative feedback to the user (i.e. ADD succeeded / failed). 
+When executing the JAR, the client must connect to the server and maintain a persistent connection. When a user enters 
+a command, the client must send the command to the server and print some relative feedback to the user (i.e. ADD succeeded / failed). 
 If the server connection is dead / failed, the client should attempt to reconnect with an appropriate backoff, reporting 
 any failures to the user.
 
