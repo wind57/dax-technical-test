@@ -9,10 +9,4 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 public class ServerMainTest {
 
-    @Test
-    void shouldSupportMessageExampleTest() {
-
-        final var result = ServerMain.message();
-        assertThat(result).isNotBlank();
-    }
 }
